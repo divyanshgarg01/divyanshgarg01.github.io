@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-8</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: lightslategray;
+        width: 100%;
+        height: 3vw;
+        padding-top: 2vw;
+        margin: 0px;
+    }
+
+    .navButton {
+        font-size: 2vw;
+        color: #fff;
+        line-height: 2vw;
+        padding: 0px;
+        margin-right: 7vw;
+    }
+
+    .header .navButton a:hover {
+        background-color: rgb(192, 31, 31);
+        color: rgb(45, 139, 146);
+    }
+
+    .banner {
+        margin-top: 3vw;
+        font-family: algerian;
+        color: white;
+        background-position: center;
+        background-size: cover;
+        font-size: 3vw;
+        padding: 1vw;
+        background-image: url("./banner.jpg");
+        width: 98%;
+        height: 50vw;
+    }
+
+    #container {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .circle img {
+        height: 180px;
+        width: 180px;
+        background-color: yellowgreen;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .paragraph {
+        margin: 10px;
+        padding-top: 10px;
+        padding: 0px;
+        text-align: center;
+        width: auto;
+        color: #FFF;
+        font-size: 3vw;
+    }
+
+    #p3 {
+        background-color: gray;
+        height: 51vw;
+        font-size: 3vw;
+        text-align: left;
+        width: 50%;
+        padding: 1vw;
+    }
+
+    #pa {
+        background-image: url(./p1.jpg);
+        width: 100%;
+        height: 15vw;
+        margin-right: 3vw;
+        color: #000;
+    }
+
+    #pb {
+        background-image: url(./p2.jpeg);
+        height: 15vw;
+        width: 100%;
+        color: #000;
+    }
+
+    #pc {
+        background-image: url(./p3.jpg);
+        height: 15vw;
+        width: 100%;
+        color: #000;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+        font-size: 2vw;
+    }
+
+    .i {
+        width: 18vw;
+        height: 12vw;
+        border: 0px outset black;
+        border-radius: 50px;
+    }
+
+    #pm {
+        background-color: plum;
+        height: 9vw;
+        line-height: 2vw;
+        padding: 1vw;
+    }
+
+    .card {
+        border: 0.4vw outset black;
+        border-radius: 2vw;
+        background-color: rgb(245, 237, 242);
+        text-align: center;
+        height: auto;
+        padding: 1vw;
+        margin-right: 1vw;
+        margin-left: 2vw;
+        width: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar" style="position:fixed;">
+            <p class="navButton">HOME</p>
+            <p class="navButton">ABOUT US</p>
+            <p class="navButton">TEAM</p>
+            <p class="navButton">TECHNOLOGIES</p>
+            <p class="navButton">CONTACT</p>
+        </div>
+    </header>
+    <div class="navbar"></div>
+    <h1 class="banner">PRACTICAL - 8</h1>
+    <h2 style="text-align: center; margin-top: 40px; font-size: 3vw;">TEAM MEMBERS</h2>
+    <div id="container">
+        <p class="circle"><img src="./1.png"></p>
+        <p class="circle"><img src="./2.png"></p>
+        <p class="circle"><img src="./3.png"></p>
+        <p class="circle"><img src="./4.png"></p>
+    </div>
+    <h2 class="heading" id="about">ABOUT US</h2>
+    <div id="about" style="display: flex; justify-content: center; width: auto;">
+        <p class="paragraph" id="p3">ABOUT PROJECTS<br><br><span style="font-size: 1.5vw;">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Beatae illo blanditiis iure
+                esse quaerat quibusdam voluptates sint consequuntur nesciunt voluptatibus sit, ipsum enim sapiente odit
+                aliquam repellat ipsam illum! Explicabo aperiam temporibus
+                molestias, labore eum similique voluptate consectetur atque officiis, magni libero quisquam ipsam
+                laborum quos magnam nesciunt neque ad minima, modi possimus
+                ratione? Reiciendis doloribus non odit rem. Deleniti laudantium voluptatum rerum mollitia illum labore
+                voluptates perferendis vero et iure id tempore sapiente
+                consectetur nulla officia error cum quis nostrum quod commodi obcaecati fugiat, eius odit facere. Neque,
+                voluptatem! Perferendis nulla ab explicabo praesentium
+                quidem aliquid minima commodi incidunt.</span></p>
+        <div style="display: inline; width: 50%;">
+            <p class="paragraph" id="pa">ARTICLE-1</p>
+            <p class="paragraph" id="pb" style="margin-top: 4vw;">ARTICLE-2</p>
+            <p class="paragraph" id="pc" style="margin-top: 4vw;">ARTICLE-3</p>
+        </div>
+    </div>
+    <h2 class="heading" id="tech">TECHNOLOGIES USED</h2>
+    <div style="display: inline-flex; margin-left: auto; margin-right: auto;">
+        <div class="card">
+            <img src="/html logo.png" class="i"><br>
+            <p>HTML stands for Hyper Text Markup Language.
+                HTML is the standard markup language for creating Web pages.
+                HTML describes the structure of a Web page.
+                HTML consists of a series of elements.</p>
+            <br><a href="./aboutHTML.html">
+                <button style="background-color: rgb(10, 193, 248);">
+                    Read More
+                </button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="/css-logo.png" class="i"><br>
+            <p>CSS stands for Cascading Style Sheets.
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+                CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
+            <br><a href="./aboutcss.html">
+                <button style="background-color: rgb(253, 235, 76);">
+                    Read More
+                </button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="/javascript logo.jpg" class="i"><br>
+            <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages
+                interactive(e.g.,
+                popup menus, etc.).
+                JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+            </p>
+            <br><a href="./javascript.html">
+                <button style="background-color: rgb(6, 255, 130);">
+                    Read More
+                </button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="/bootstrap logo.jpg" class="i"><br>
+            <p>Bootstrap is a free and open-source tool collection for creating responsive websites and web
+                applications.
+                It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first
+                websites.<br></p>
+            <br><a href="./bootstrap.html">
+                <button style="background-color: rgb(27, 226, 240);">
+                    Read More
+                </button>
+            </a>
+        </div>
+    </div>
+    <h2 class="heading">CONTACT</h2>
+    <p class="paragraph" id="pm" style="font-size: 1.5vw;">Divyansh Garg<br>divyansh.garg_cs19@gla.ac.in<br><a
+            href="#"><br>Back To Top</a></p>
+
+</body>
+
+</html>
