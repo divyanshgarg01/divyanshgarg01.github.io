@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-11</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+      main {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        font-size: 40px;
+      }
+      footer {
+        width: 100%;
+        background-color: darkslategray;
+      }
+      .main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 10px;
+      }
+      .main-content h2 {
+        font-size: 20px;
+        color: whitesmoke;
+        text-transform: uppercase;
+      }
+      .main-content ul {
+        list-style: none;
+      }
+      .about {
+        width: 40%;
+      }
+      .about p {
+        text-align: justify;
+        color: whitesmoke;
+        margin-top: 15px;
+      }
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      a:hover {
+        color: orange;
+      }
+      span {
+        color: whitesmoke;
+      }
+      i {
+        color: whitesmoke;
+        font-size: 22px;
+        margin-right: 10px;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+      }
+      .form p {
+        color: whitesmoke;
+        font-size: 25px;
+      }
+      .form a {
+        display: inline-block;
+        padding: 10px 25px;
+        color: white;
+        background-color: red;
+        margin-left: 10px;
+        border-radius: 20px;
+        font-size: 25px;
+      }
+      .form a:hover {
+        background-color: orange;
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+      }
+      .social ul {
+        list-style: none;
+      }
+      .social ul li {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        padding: 17.5px;
+        background-color: gray;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      .social ul li i {
+        font-size: 25px;
+        line-height: 20px;
+      }
+      .social ul li:nth-child(1):hover {
+        background-color: #3b5999;
+      }
+      .social ul li:nth-child(2):hover {
+        background-color: black;
+      }
+      .social ul li:nth-child(3):hover {
+        background-color: #dd4b39;
+      }
+      .social ul li:nth-child(4):hover {
+        background-color: #0077b5;
+      }
+      .end {
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      @media (max-width: 767px) {
+        .main-content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 30px 10px;
+          flex-wrap: wrap;
+        }
+        .main-content h2 {
+          font-size: 20px;
+          color: whitesmoke;
+          text-transform: uppercase;
+        }
+        .about {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .form {
+          padding: 20px;
+        }
+        .social {
+          padding: 20px 10px;
+        }
+        .social ul {
+          list-style: none;
+          margin: 20px;
+        }
+        .social ul li {
+          display: inline-block;
+          width: 55px;
+          height: 55px;
+          padding: 17.5px;
+          background-color: gray;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+      @media (max-width: 499px) {
+        .main-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 30px 10px;
+        }
+        .main-content h2 {
+          font-size: 20px;
+          color: whitesmoke;
+          text-transform: uppercase;
+          margin-top: 20px;
+        }
+        .about {
+          width: 100%;
+        }
+        .social ul {
+          list-style: none;
+        }
+        .social ul li {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          padding: 10px;
+          background-color: gray;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>Assignment-11</main>
+    <footer>
+      <section class="main-content">
+        <section class="about">
+          <h2>About</h2>
+          <p>
+            Create a Responsive Footer Template.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quibusdam vel similique voluptates nostrum quod id ipsa alias possimus? Optio, facilis nostrum? Aliquid inventore, fugit veritatis culpa vero non veniam!
+          </p>
+        </section>
+        <section class="link1">
+          <h2>Assignment List</h2>
+          <ul>
+            <li><a href="./Assignment1.html">Assignment-1</a></li>
+            <li><a href="./Assignment2.html">Assignment-2</a></li>
+            <li><a href="./Assignment3.html">Assignment-3</a></li>
+            <li><a href="./Assignment4.html">Assignment-4</a></li>
+            <li><a href="./Assignment5.html">Assignment-5</a></li>
+          </ul>
+        </section>
+        <section class="link2">
+          <h2>More Assignments</h2>
+          <ul>
+            <li><a href="./Assignment6.html">Assignment-6</a></li>
+            <li><a href="./Assignment7.html">Assignment-7</a></li>
+            <li><a href="./Assignment8.html">Assignment-8</a></li>
+            <li><a href="./Assignment9.html">Assignment-9</a></li>
+            <li><a href="./Assignment10.htmll">Assignment10</a></li>
+          </ul>
+        </section>
+        <section class="link3">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>
+              <a href="../index.html"
+                ><i class="fa fa-home"></i><span> Home Page</span></a
+              >
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i
+              ><span> divyansh.garg_cs19@gla.ac.in</span>
+            </li>
+            <li>
+              <i class="fa fa-phone-square"></i><span> Mobile: 6553888**</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/divyanshgarg01/divyanshgarg01.github.io.git"
+                ><i class="fa fa-github-square"></i
+                ><span>divyansh-garg</span></a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="form">
+        <p>Register for Free</p>
+        <a href="#">signup!</a>
+      </section>
+      <section class="social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/divyanshgarg01/"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/"><i class="fa fa-google"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/divyanshgarg/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="end">
+        <p>
+          Copyright © 2020 All Rights Reserved by
+          <a href="https://github.com/divyanshgarg01/">divyansh-garg</a>.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
